@@ -1,0 +1,133 @@
+/* 
+             [if user has not sign up or login this the code ]*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=PT+Sans:wght@700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding:0; 
+}
+ .head{
+     display: grid;
+    width: 100%;
+    height: 90px;
+    background:rgb(243, 243, 243);
+    grid-template-columns: repeat(2,300px);
+    grid-column-gap: 750px;
+}
+#project-name{
+    font-family: 'Nunito', sans-serif;
+    margin-left:10px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 5px;
+}
+#logo{
+    margin-left:50px;
+}
+#search-icon{
+    margin-left: 5px;
+}
+/* nav */
+#body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:30px 0 100px  100px;
+}
+.nav-item{
+    margin-left:20px;
+}
+.nav-item > a{
+    font-weight: 700;
+
+}
+
+#link{
+    margin-left:200px;
+}
+#form{
+    margin-right:150px;
+}
+#cart-logo{
+    position: absolute;
+    right:100px; 
+}
+#info-mid span{
+    color:rgb(222,96,0);
+}
+.body h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 59px;
+}
+.grid{
+    width:400px;
+    height:350px;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.cook{
+    width:650px;
+    height: 550px;
+    z-index:-1;
+    filter:blur(0.7px);
+    background-color: light-gray;
+}
+.grid{
+    width:600px;
+    height: 150px;
+    margin-right: 120px;
+    
+}
+.grid > .card{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.body p{
+    font-weight: 600;
+    font-size: 17px;
+    line-break: loose;
+}
+#intro{
+    margin-bottom:40px;
+}
+#middle p{
+    color:rgb(107,107,107);
+    margin-bottom:25px;
+}
+#middle #middle-btn{
+    background-image:linear-gradient(to bottom, #F99B3D, #F5902C,#F08214);
+    color:#fff;
+    font-family: 'Nunito', sans-serif;
+    width:130px;
+    height:50px;
+    font-size: 18px;
+}
+#middle #order-process{
+    color:rgb(54,54,54);
+    margin-top:13px;
+}
+#orders{
+    display: flex;
+    width:490px;
+}
+#orders #play-info{
+    margin:15px 35px 0 35px;
+    color:#F08112;
+}
+img{
+    width:60px;
+    height:60px;
+}
+.crispy{
+    width: 60px;
+    height:40px;
+
+}
+.card > .pizza-head{
+    margin-bottom: 20px;
+}
+
