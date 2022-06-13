@@ -8,6 +8,10 @@
     margin: 0;
     padding:0; 
 }
+body{
+    height:100vh;
+    width: 100vw;
+}
  .head{
      display: grid;
     width: 100%;
@@ -15,6 +19,9 @@
     background:rgb(243, 243, 243);
     grid-template-columns: repeat(2,300px);
     grid-column-gap: 750px;
+}
+#container-fluid h3 span{
+    color:#FF9900;
 }
 #project-name{
     font-family: 'Nunito', sans-serif;
@@ -88,6 +95,10 @@
     margin-right: 30px;
     margin-bottom: 20px;
 }
+.card-body a svg{
+    color: #fff;
+    margin-bottom: 4px;
+}
 .body p{
     font-weight: 600;
     font-size: 17px;
@@ -129,9 +140,9 @@ img{
     height:40px;
 
 }
-/*.card > .pizza-head{
+.card > .pizza-head{
     margin-bottom: 20px;
-}*/
+}
 #head-question{
     font-family: 'Barlow', sans-serif;
     font-family: 'Nunito', sans-serif;
@@ -205,7 +216,7 @@ img{
 }
 #choose-us p #span4{
     
-    margin-left: 26px;
+    margin-left: 30px;
 }
 
 /* discount-info */
@@ -221,7 +232,6 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     z-index:-3;
-    /* transition: 1s ease-in-out; */
     opacity:0;
 }
 #discount #off{
