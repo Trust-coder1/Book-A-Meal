@@ -219,7 +219,7 @@ img{
 }
 #discount img{
     position: absolute;
-    min-height:600px;
+    min-height:700px;
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ img{
 #discount #discount-shop{
     position:absolute;
     margin-left:56.5%;
-    margin-top:22%;
+    margin-top:24%;
     color:#fff;
     font-family: 500;
     font-size: 15px;
