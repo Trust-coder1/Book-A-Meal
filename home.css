@@ -36,6 +36,11 @@ body{
 #search-icon{
     margin-left: 5px;
 }
+.collapse .mb-2 .nav-item .active {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #F17505;
+} 
 /* nav */
 #body{
     display: grid;
@@ -146,8 +151,7 @@ img{
 #head-question{
     font-family: 'Barlow', sans-serif;
     font-family: 'Nunito', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
+    
     font-weight:700;
     margin:0 0 20px 38%;
 
@@ -222,7 +226,7 @@ img{
 /* discount-info */
 #discount{
     margin-top: 80px;
-    width:100vw;
+    width:97%;
     height:650px;
 }
 #discount img{
@@ -231,8 +235,9 @@ img{
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index:-3;
+    z-index:-2;
     opacity:0;
+    margin:0;
 }
 #discount #off{
     position:absolute;
@@ -250,14 +255,173 @@ img{
 /* discount button */
 #discount #discount-shop{
     position:absolute;
-    margin-left:56.5%;
-    margin-top:24%;
+    left:57%;
+    top:210%;
     color:#fff;
-    font-family: 500;
+    font-family: 'Barlow', sans-serif;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 700;
     width:100px;
     opacity:0;
     border-radius:20px;
     background-image:linear-gradient(to right, #FF8400,#FFB700);
+}
+#premium{
+    width:100%;
+    height:200px;
+    background-color: #1A2647;
+    color:#fff;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    margin:160px 0 150px 0;
+
+}
+#premium-part{
+    margin:10px 0 60px 0;
+}
+#premium-part #premium-title{
+    font: size 28px;
+    font-family: 'Nunito', sans-serif;
+    margin:50px 0 0 80px;
+}
+#premium-part #premium-title #pre-text{
+    font-size:23px;
+    color:#fff;
+}
+#premium-part #premium-title #color-title{
+    color:#F89501;
+    font-family: 'Nunito', sans-serif;
+}
+#premium-part #premium-title #span{
+    font-size:14px
+}
+#line{
+   background-color:#454A58;
+   position: absolute;
+   margin:-70px 0 0px 350px;
+   width:2px;
+   height:120px;
+}
+#premium p{
+    margin:40px 0 0 0px;
+}
+#premium-buttons{
+   margin:40px 0 0 20px;
+   display: flex;
+   flex-direction: column;
+}
+#premium-buttons #join-now{
+    color:#fff;
+    font-family: 'Barlow', sans-serif;
+    width:120px;
+    border-radius:20px;
+    font-size:15px;
+    font-weight: 700;
+    margin-bottom:20px;
+    background-image:linear-gradient(to right, #FF8400,#FFB700);
+}
+#premium-buttons #more-info{
+    color:#000;
+    background-color:#fff;
+    font-family: 'Barlow', sans-serif;
+    width:120px;
+    border-radius:20px;
+    font-size:15px;
+    font-weight: 700;
+}
+#footer{
+    width:100%;
+    height:250px;
+    display:grid;
+    margin-bottom: 10px;
+    grid-template-columns: repeat(2,1fr);    
+}
+#best{
+    margin:6px 0 0 250px;
+}
+#Links{
+    display:grid;
+    margin-right: 250px;
+    grid-template-columns: repeat(3,1fr); 
+}
+#best h5{
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 20px;
+}
+#best h5 span{
+    color:#F89501;
+}
+#link-section1{
+    width:150px;
+    display: flex;
+    flex-direction: column;
+}
+#best p{
+    font-weight: 300;
+    word-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+} 
+#link-section1, #link-section2, #link-section3{
+    display: flex;
+    flex-direction: column;
+    width:150px;
+    margin-right: 50px;
+}
+#link-section2{
+    width:130px;
+}
+
+#Links div a{
+    color:#44547B;
+    font-size:16px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#link-section1, #link-section2, #link-section3 p{
+    color:#000;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+/* footer2 */
+#footer2{
+    margin-bottom: 20px;
+}
+#social{
+    width:100%;
+    height:30px;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+#social #insta{
+    margin-left: 255px;
+    color:#F6009C
+}
+#social svg{
+    margin: 0 20px 0px 0;
+}
+#social #fb{
+    color:#3257A0;
+}
+#social #in{
+    color:#0073B1;
+}
+#social #twit{
+    color:#1C96E8;
+}
+#line-end{
+    margin:0 0 5px 240px;
+    width:790px;
+    height:2px;
+    background-color: #6A7187;
+}
+#copyright{
+    margin-left: 38%;
+    font-size: 15px;
+    font-weight: 700;   
+    font-family: 'Barlow', sans-serif;
 }
