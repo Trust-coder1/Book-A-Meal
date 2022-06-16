@@ -188,7 +188,13 @@ img{
     color: #0C7CE2;
     width:28px;
     height:22px;
-    margin:0 0 14px 63px;
+    margin:0 0 14px 109px;
+}
+#fast-delivery h6{
+    margin-left: 80px;
+}
+#fast-delivery p{
+    margin-left: 42px;
 }
 #easy-order h6{
     margin-left:51px;
