@@ -405,19 +405,23 @@ img{
 }
 #social #insta{
     margin-left: 255px;
-    color:#F6009C
+    color:#F6009C;
+    cursor: pointer;
 }
 #social svg{
     margin: 0 20px 0px 0;
 }
 #social #fb{
     color:#3257A0;
+    cursor: pointer;
 }
 #social #in{
     color:#0073B1;
+    cursor: pointer;
 }
 #social #twit{
     color:#1C96E8;
+    cursor: pointer;
 }
 #line-end{
     margin:0 0 5px 240px;
